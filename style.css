@@ -8,13 +8,20 @@
 
 *{
     box-sizing: border-box;
+    /* outline: 2px solid green; */
 }
 
 body{
     background-color: var(--background);
 }
-h1, h2, h3{
+
+.title{
+    padding: 8px;
     text-align: center;
+}
+
+.title h1{
+    margin-bottom:-20px;
 }
 
 .recipe-list{
